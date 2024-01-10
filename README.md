@@ -24,6 +24,9 @@ docker compose -f docker-compose.infra.yml up
 ````
 It will spin up back end's infrastructure which is localstack with AWS S3 bucket in it and a Postgres DB
 
+<img width="1291" alt="image" src="https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/9a6ef69d-fba0-40c7-b0d3-47e923286cc9">
+
+
 as soon as you can see  `Finished LocalStack services initialisation.` and `database system is ready to accept connections`
 
 please build `Heinekamp.CodingChallenge.FileApi` and run it. 
