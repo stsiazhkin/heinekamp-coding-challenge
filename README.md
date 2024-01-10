@@ -50,6 +50,13 @@ they can be found/added/removed in
 **Please bear in mind this only for demo purposes!** No sensitive info must be stored 
 in codebase when it comes to production development
 
+**To run unit and integration tests of the API** please perform the following command from a terminal while in `./applications/back-end` folder:
+````
+dotnet test
+````
+**Docker engine must be running in the background**
+
+
 ## To run `front-end`
 
 while in `./applications/front-end` folder please run in a terminal the following command below:
@@ -79,6 +86,20 @@ to back end API.
 
 ![shareable_link_flow](https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/71ea68a8-ad43-4522-becc-e954f31c9b1d)
 
+# What else has to be added
+## backend wise
+* Extend unit/integration tests coverage
+* Add caching layer to reduce network load and improve response times
+* Implement health checks so that loadbalancer can properly track issues and spread the workload across instances of API
+* Move files archivation logic bit outside of API considering this is a heavy load operation, make it asyncronous
+* Have Image Thumbnails logic separate and being done on BE side only. Front end only does representation for this
+* Have a back end for frontend (BFF) for authentication logic (and whatever else is needed). Then File API itself should be an internal service which is not exposed to the outside
+* File API can be used by any service in the company which needs files download/upload support
+
+## Frontend wise
+* Make it look nicer for sure
+* Add pagination on front end
+* The rest is better to discuss with a Front-End engineer
 
 
 
