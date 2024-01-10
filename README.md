@@ -102,6 +102,7 @@ to back end API.
 ## Frontend wise
 * Make it look nicer for sure
 * Add pagination on front end
+* Add an option to set download link expiratioin time manually. Currently it is done on BE only and set to 60 mins in config file of the API
 * The rest is better to discuss with a Front-End engineer
 
 
