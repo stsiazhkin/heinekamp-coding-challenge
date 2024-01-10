@@ -74,6 +74,7 @@ UI spins up on port `3000` should <a href="http://localhost:3000">be available i
 
 In order to proceed one needs to enter a valid test API key. They are the same as above and will be used to send requests 
 to back end API.
+**Validation on BE side is currently set to accept files not more than 10MB in size**
 
 # Overview
 
