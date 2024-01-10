@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heinekamp.CodingChallenge.FileApi.Common\Heinekamp.CodingChallenge.FileApi.Common.csproj" />
+    <ProjectReference Include="..\Heinekamp.CodingChallenge.FileApi.Persistence\Heinekamp.CodingChallenge.FileApi.Persistence.csproj" />
+    <ProjectReference Include="..\Heinekamp.CodingChallenge.FileApi.Services\Heinekamp.CodingChallenge.FileApi.Services.csproj" />
+  </ItemGroup>
+
+</Project>

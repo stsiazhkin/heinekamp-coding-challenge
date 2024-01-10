@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MediaTypeMap.Core" Version="2.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heinekamp.CodingChallenge.FileApi.Handlers\Heinekamp.CodingChallenge.FileApi.Handlers.csproj" />
+    <ProjectReference Include="..\Heinekamp.CodingChallenge.FileApi.Common\Heinekamp.CodingChallenge.FileApi.Common.csproj" />
+    <ProjectReference Include="..\Heinekamp.CodingChallenge.FileApi.Services\Heinekamp.CodingChallenge.FileApi.Services.csproj" />
+  </ItemGroup>
+
+</Project>

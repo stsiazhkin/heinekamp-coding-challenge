@@ -1,0 +1,6 @@
+@Heinekamp.CodingChallenge.FileApi_HostAddress = http://localhost:5062
+
+GET {{Heinekamp.CodingChallenge.FileApi_HostAddress}}/files/
+Accept: application/json
+
+###
