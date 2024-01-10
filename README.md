@@ -1,14 +1,13 @@
-# Hello! 
+# Hello! 👋
 # This is Heinekamp coding challenge solution
 
-It comprises <a href="./applications/back-end/README.md">back-end</a> and 
-<a href="./applications/front-end/README.md">front-end</a>. Both can be found in `applications` folder of 
+It comprises <a href="./applications/back-end">back-end</a> and 
+<a href="./applications/front-end">front-end</a>. Both can be found in `applications` folder of 
 `heinekamp-coding-challenge`
 
 # Quick start
 
 ## Prerequisites
-<a href=""></a></br>
 Have to be installed before running applications:
 
 <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">.NET8</a></br>
@@ -68,6 +67,21 @@ to back end API.
 
 # Overview
 
-Insert image here
-Insert image here
+![potential_prod_implementation](https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/5c1e6709-5922-46c8-9127-85bd146398c9)
+
+![Coding_challenge_implementation](https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/837b87ad-5fe5-4272-be35-d0f01b287577)
+
+![uplaod_flow](https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/e9b3f30b-776b-4c81-998e-1e62811025b5)
+
+![fetch_filesinfo](https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/13020de8-3066-4658-8923-e8b81bb37a1b)
+
+![download_file_flow](https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/60f62b07-68b7-4815-8d28-059d5291984e)
+
+![shareable_link_flow](https://github.com/stsiazhkin/heinekamp-coding-challenge/assets/22170119/71ea68a8-ad43-4522-becc-e954f31c9b1d)
+
+
+
+
+
+
 
