@@ -94,6 +94,8 @@ to back end API.
 * Extend unit/integration tests coverage
 * Add caching layer to reduce network load and improve response times
 * Implement health checks so that loadbalancer can properly track issues and spread the workload across instances of API
+* Add request rate limiting
+* All secrets, if any, must be stored remotely in AWS Secrets Manager/Azure Key Vault or equivalent
 * Move files archivation logic bit outside of API considering this is a heavy load operation, make it asyncronous
 * Have Image Thumbnails logic separate and being done on BE side only. Front end only does representation for this
 * Have a back end for frontend (BFF) for authentication logic (and whatever else is needed). Then File API itself should be an internal service which is not exposed to the outside
